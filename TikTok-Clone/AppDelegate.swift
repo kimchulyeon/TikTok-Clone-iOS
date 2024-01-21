@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupNavigationBar()
+        FirebaseApp.configure()
         return true
     }
 
@@ -32,5 +34,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    private func setupNavigationBar() {
+        let backImage = UIImage(systemName: "chevron.backward")
+        UINavigationBar.appearance().tintColor = UIColor(red: 0 / 255, green: 0 / 255, blue: 0 / 255, alpha: 1)
+        UINavigationBar.appearance().backIndicatorImage = backImage
+        UINavigationBar.appearance().backIndicatorImage = backImage
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = backImage
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(.init(horizontal: -1000, vertical: 0), for: .default)
+    }
 }
 

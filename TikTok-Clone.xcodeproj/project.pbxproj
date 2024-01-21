@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371EF1B92B5BA9D800DF0F1E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EF1B82B5BA9D800DF0F1E /* SignUpViewController.swift */; };
+		371EF1BB2B5BB1C300DF0F1E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371EF1BA2B5BB1C300DF0F1E /* SignInViewController.swift */; };
+		371EF1C02B5C1DFA00DF0F1E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1BF2B5C1DFA00DF0F1E /* FirebaseAnalytics */; };
+		371EF1C22B5C1DFA00DF0F1E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1C12B5C1DFA00DF0F1E /* FirebaseAnalyticsSwift */; };
+		371EF1C42B5C1DFA00DF0F1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1C32B5C1DFA00DF0F1E /* FirebaseAuth */; };
+		371EF1C62B5C1DFA00DF0F1E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1C52B5C1DFA00DF0F1E /* FirebaseDatabase */; };
+		371EF1C82B5C1DFA00DF0F1E /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1C72B5C1DFA00DF0F1E /* FirebaseDatabaseSwift */; };
+		371EF1CA2B5C1DFA00DF0F1E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1C92B5C1DFA00DF0F1E /* FirebaseFirestore */; };
+		371EF1CC2B5C1DFA00DF0F1E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1CB2B5C1DFA00DF0F1E /* FirebaseFirestoreSwift */; };
+		371EF1CE2B5C1DFA00DF0F1E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 371EF1CD2B5C1DFA00DF0F1E /* FirebaseStorage */; };
+		371EF1D02B5C1FA000DF0F1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 371EF1CF2B5C1FA000DF0F1E /* GoogleService-Info.plist */; };
 		37A2F87E2B5BA4DF0013F59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2F87D2B5BA4DF0013F59F /* AppDelegate.swift */; };
 		37A2F8802B5BA4DF0013F59F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2F87F2B5BA4DF0013F59F /* SceneDelegate.swift */; };
-		37A2F8822B5BA4DF0013F59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2F8812B5BA4DF0013F59F /* ViewController.swift */; };
+		37A2F8822B5BA4DF0013F59F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2F8812B5BA4DF0013F59F /* LoginViewController.swift */; };
 		37A2F8852B5BA4DF0013F59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A2F8832B5BA4DF0013F59F /* Main.storyboard */; };
 		37A2F8872B5BA4E20013F59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A2F8862B5BA4E20013F59F /* Assets.xcassets */; };
 		37A2F88A2B5BA4E20013F59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A2F8882B5BA4E20013F59F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371EF1B82B5BA9D800DF0F1E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		371EF1BA2B5BB1C300DF0F1E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		371EF1CF2B5C1FA000DF0F1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		37A2F87A2B5BA4DF0013F59F /* TikTok-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TikTok-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A2F87D2B5BA4DF0013F59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A2F87F2B5BA4DF0013F59F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37A2F8812B5BA4DF0013F59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37A2F8812B5BA4DF0013F59F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		37A2F8842B5BA4DF0013F59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37A2F8862B5BA4E20013F59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A2F8892B5BA4E20013F59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371EF1C82B5C1DFA00DF0F1E /* FirebaseDatabaseSwift in Frameworks */,
+				371EF1C22B5C1DFA00DF0F1E /* FirebaseAnalyticsSwift in Frameworks */,
+				371EF1C42B5C1DFA00DF0F1E /* FirebaseAuth in Frameworks */,
+				371EF1CC2B5C1DFA00DF0F1E /* FirebaseFirestoreSwift in Frameworks */,
+				371EF1C62B5C1DFA00DF0F1E /* FirebaseDatabase in Frameworks */,
+				371EF1CE2B5C1DFA00DF0F1E /* FirebaseStorage in Frameworks */,
+				371EF1C02B5C1DFA00DF0F1E /* FirebaseAnalytics in Frameworks */,
+				371EF1CA2B5C1DFA00DF0F1E /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,26 @@
 		37A2F87C2B5BA4DF0013F59F /* TikTok-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				37A2F8912B5BA95D0013F59F /* View */,
 				37A2F87D2B5BA4DF0013F59F /* AppDelegate.swift */,
 				37A2F87F2B5BA4DF0013F59F /* SceneDelegate.swift */,
-				37A2F8812B5BA4DF0013F59F /* ViewController.swift */,
 				37A2F8832B5BA4DF0013F59F /* Main.storyboard */,
 				37A2F8862B5BA4E20013F59F /* Assets.xcassets */,
 				37A2F8882B5BA4E20013F59F /* LaunchScreen.storyboard */,
 				37A2F88B2B5BA4E20013F59F /* Info.plist */,
+				371EF1CF2B5C1FA000DF0F1E /* GoogleService-Info.plist */,
 			);
 			path = "TikTok-Clone";
+			sourceTree = "<group>";
+		};
+		37A2F8912B5BA95D0013F59F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37A2F8812B5BA4DF0013F59F /* LoginViewController.swift */,
+				371EF1B82B5BA9D800DF0F1E /* SignUpViewController.swift */,
+				371EF1BA2B5BB1C300DF0F1E /* SignInViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +116,16 @@
 			dependencies = (
 			);
 			name = "TikTok-Clone";
+			packageProductDependencies = (
+				371EF1BF2B5C1DFA00DF0F1E /* FirebaseAnalytics */,
+				371EF1C12B5C1DFA00DF0F1E /* FirebaseAnalyticsSwift */,
+				371EF1C32B5C1DFA00DF0F1E /* FirebaseAuth */,
+				371EF1C52B5C1DFA00DF0F1E /* FirebaseDatabase */,
+				371EF1C72B5C1DFA00DF0F1E /* FirebaseDatabaseSwift */,
+				371EF1C92B5C1DFA00DF0F1E /* FirebaseFirestore */,
+				371EF1CB2B5C1DFA00DF0F1E /* FirebaseFirestoreSwift */,
+				371EF1CD2B5C1DFA00DF0F1E /* FirebaseStorage */,
+			);
 			productName = "TikTok-Clone";
 			productReference = 37A2F87A2B5BA4DF0013F59F /* TikTok-Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +154,9 @@
 				Base,
 			);
 			mainGroup = 37A2F8712B5BA4DF0013F59F;
+			packageReferences = (
+				371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 37A2F87B2B5BA4DF0013F59F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A2F88A2B5BA4E20013F59F /* LaunchScreen.storyboard in Resources */,
+				371EF1D02B5C1FA000DF0F1E /* GoogleService-Info.plist in Resources */,
 				37A2F8872B5BA4E20013F59F /* Assets.xcassets in Resources */,
 				37A2F8852B5BA4DF0013F59F /* Main.storyboard in Resources */,
 			);
@@ -138,8 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A2F8822B5BA4DF0013F59F /* ViewController.swift in Sources */,
+				37A2F8822B5BA4DF0013F59F /* LoginViewController.swift in Sources */,
 				37A2F87E2B5BA4DF0013F59F /* AppDelegate.swift in Sources */,
+				371EF1B92B5BA9D800DF0F1E /* SignUpViewController.swift in Sources */,
+				371EF1BB2B5BB1C300DF0F1E /* SignInViewController.swift in Sources */,
 				37A2F8802B5BA4DF0013F59F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,8 +347,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +357,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chul.TikTok-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,8 +380,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +390,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chul.TikTok-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +422,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		371EF1BF2B5C1DFA00DF0F1E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		371EF1C12B5C1DFA00DF0F1E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		371EF1C32B5C1DFA00DF0F1E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		371EF1C52B5C1DFA00DF0F1E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		371EF1C72B5C1DFA00DF0F1E /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		371EF1C92B5C1DFA00DF0F1E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		371EF1CB2B5C1DFA00DF0F1E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		371EF1CD2B5C1DFA00DF0F1E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 371EF1BE2B5C1DFA00DF0F1E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37A2F8722B5BA4DF0013F59F /* Project object */;
 }
