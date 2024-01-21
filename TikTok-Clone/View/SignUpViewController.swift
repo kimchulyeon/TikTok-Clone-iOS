@@ -83,6 +83,8 @@ class SignUpViewController: UIViewController {
     @IBAction func signUpButtonTapped(_ sender: Any) {
         guard let email = emailTextField.text,
               let password = passwordTextField.text else { return }
+        
+        // Create Account
         Auth.auth().createUser(withEmail: email, password: password) { result, error in
             if let error = error {
                 return print(error.localizedDescription)
@@ -96,6 +98,7 @@ class SignUpViewController: UIViewController {
                     "status": ""
                 ]
                 
+                // Save User Info Real Database
                 Database.database(url: "https://tiktok-clone-ios-default-rtdb.asia-southeast1.firebasedatabase.app").reference().child("users").child(result.user.uid).updateChildValues(data) { error, databaseRef in
                     if let error = error {
                         return print(error.localizedDescription)
@@ -108,6 +111,7 @@ class SignUpViewController: UIViewController {
     }
 }
 
+// MARK: - PHPickerViewControllerDelegate
 extension SignUpViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         for result in results {
